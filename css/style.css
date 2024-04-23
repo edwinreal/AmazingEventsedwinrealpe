@@ -42,6 +42,7 @@ body{
 .contenedor{
     width: 65vh;
     margin-top: 19vh;
+    background-color: aquamarine;
 }
 
 .mar{
@@ -55,4 +56,22 @@ margin: 4vh;
 footer{
     background-color: blue;
     
+}
+
+.conts{
+    margin-top: 20vh;
+    height: 62vh;
+    
+}
+
+.img-fluid{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   margin-top: 1vh;
+    
+}
+
+.card-body{
+    margin-left: 4vh;
 }
