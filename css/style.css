@@ -1,5 +1,5 @@
 body{
-    border: solid;
+   
     display: grid;
     min-height:100%;
     grid-template-rows: auto 1fr auto 1fr auto;
@@ -42,7 +42,7 @@ body{
 .contenedor{
     width: 65vh;
     margin-top: 19vh;
-    background-color: aquamarine;
+    
 }
 
 .mar{
@@ -54,7 +54,15 @@ margin: 4vh;
 }
 
 footer{
-    background-color: blue;
+    
+    position:relative; 
+    bottom: 0;
+    margin-bottom: -24vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    
     
 }
 
@@ -97,4 +105,16 @@ th, td {
 
 th {
     background-color: rgb(136, 133, 133);
+}
+
+.img-footer{
+width: 5vh;
+height: 5vh;
+margin: 4vh;
+cursor: pointer;
+
+}
+
+.container-tex{
+    margin: 4vh;
 }
