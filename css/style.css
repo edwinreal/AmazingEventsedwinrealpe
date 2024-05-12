@@ -1,9 +1,4 @@
-body{
-   
-    display: grid;
-    min-height:100%;
-    grid-template-rows: auto 1fr auto 1fr auto;
-}
+
 
 .img{
     width: 9vh;
@@ -117,4 +112,44 @@ cursor: pointer;
 
 .container-tex{
     margin: 4vh;
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.event-details {
+    padding: 10px;
+}
+
+.event-details h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.event-details p {
+    margin: 5px 0;
+}
+
+.til{
+    text-align: center;
+    margin-top: 20px
 }
